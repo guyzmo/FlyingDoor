@@ -1,16 +1,10 @@
 /**
- *  @title:  RFID door control system for the Loop
- *  @author: Guyzmo <guyzmo at leloop dot org>
- *  @see:    http://www.stronglink.cn/english/sl030.htm
+ *  @title:  Simple stupide door control system
+ *  @author: Guyzmo <guyzmo at hackable-devices dot org>
  *  @see:    http://github.com/guyzmo/LeLoopRFID
  *  @see:    http://wiki.leloop.org/index.php/LeLoopRFID
- *
- *  Arduino to SL018/SL030 wiring:
- *  A4/SDA     2     3
- *  A5/SCL     3     4
- *  5V         4     -
- *  GND        5     6
- *  3V3        -     1
+ *  
+ *  Based on LeLoopRFID
  */
 
 #include <Ethernet.h>
